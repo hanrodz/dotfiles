@@ -6,3 +6,5 @@
 [alias]
 	ln = log --oneline
 	all = log --oneline --all --graph --decorate
+	cm = commit -m
+	amend = commit --amend
