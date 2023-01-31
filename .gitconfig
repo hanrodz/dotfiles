@@ -1,5 +1,6 @@
 [core]
 	editor = vim
+	pager = less -+X -F
 [user]
 	name = han rodríguez
 	email = han@gonzalpi.com
