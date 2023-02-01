@@ -14,6 +14,10 @@ function pyenv() {
     case $1 in
         "-n")
             python3 -m venv $ENV_DIR
+            exit_code=$?
+            if [[ $exit_code -eq 0 ]]
+            then echo "*" >> $ENV_DIR/.gitignore
+            fi
             ;;
         "-a")
             source $ENV_DIR/bin/activate
