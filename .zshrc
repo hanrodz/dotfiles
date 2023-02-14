@@ -6,7 +6,7 @@ alias matlab='path/to/matlab/binary -nodesktop -nosplash'
 # Functions
 function pyenv() {
     # Create environment
-    local function create_env() {
+    function create_env() {
         python3 -m venv $ENV_DIR
         exit_code=$?
         if [[ $exit_code -eq 0 ]]
