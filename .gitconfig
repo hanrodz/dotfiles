@@ -9,4 +9,6 @@
 	all = log --oneline --all --graph --decorate
 	cm = commit -m
 	amend = commit --amend
-    noedit = commit --amend --no-edit
+	noedit = commit --amend --no-edit
+	jalese = pull
+	prune = remote prune origin
