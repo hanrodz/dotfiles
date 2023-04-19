@@ -11,4 +11,4 @@
 	amend = commit --amend
 	noedit = commit --amend --no-edit
 	jalese = pull
-	prune = remote prune origin
+	pruno = remote prune origin
