@@ -12,3 +12,4 @@
 	noedit = commit --amend --no-edit
 	jalese = pull
 	pruno = remote prune origin
+	cp = cherry-pick
