@@ -10,6 +10,7 @@
 	cm = commit -m
 	amend = commit --amend
 	noedit = commit --amend --no-edit
-	jalese = pull
 	pruno = remote prune origin
 	cp = cherry-pick
+	jalese = pull
+	orale = push -f
