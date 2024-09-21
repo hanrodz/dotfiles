@@ -5,17 +5,19 @@
 	name = han rodríguez
 	email = han@gonzalpi.com
 [alias]
-	ln = log --oneline
-	all = log --oneline --all --graph --decorate
+	st = status
+	cho = checkout
+	cp = cherry-pick
 	cm = commit -m
 	amend = commit --amend
-	noedit = commit --amend --no-edit
 	noe = commit --amend --no-edit
-	jalese = pull
-	cp = cherry-pick
-	st = status
+	noedit = commit --amend --no-edit
+	ln = log --oneline
+	all = log --oneline --all --graph --decorate
 	pruno = remote prune origin
+	files = !f() { git diff HEAD HEAD~$1 --name-only; }; f
 	orale = push -f
 	alv = push -f
+	jalese = pull
 [init]
 	defaultBranch = main
