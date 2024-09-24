@@ -5,6 +5,7 @@
 	name = han rodríguez
 	email = han@gonzalpi.com
 [alias]
+	alias = config --global --get-regexp ^alias
 	st = status
 	cho = checkout
 	cp = cherry-pick
