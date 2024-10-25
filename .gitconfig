@@ -9,6 +9,7 @@
 	st = status
 	cho = checkout
 	cp = cherry-pick
+	br = branch
 	cm = commit -m
 	amend = commit --amend
 	noe = commit --amend --no-edit
