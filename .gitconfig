@@ -3,7 +3,7 @@
 	pager = less -+X -F
 [user]
 	name = han rodríguez
-	email = han@gonzalpi.com
+	email = hi@hanrodz.com
 [alias]
 	alias = config --global --get-regexp ^alias
 	st = status
