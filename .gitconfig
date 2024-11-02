@@ -10,6 +10,7 @@
 	cho = checkout
 	cp = cherry-pick
 	br = branch
+	rb = rebase
 	cm = commit -m
 	amend = commit --amend
 	noe = commit --amend --no-edit
