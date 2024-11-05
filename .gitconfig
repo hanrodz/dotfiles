@@ -11,6 +11,8 @@
 	cp = cherry-pick
 	br = branch
 	rb = rebase
+	rbc = rebase --continue
+	rba = rebase --abort
 	cm = commit -m
 	amend = commit --amend
 	noe = commit --amend --no-edit
