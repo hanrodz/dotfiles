@@ -6,7 +6,7 @@
 	email = hi@hanrodz.com
 [alias]
 	alias = config --global --get-regexp ^alias
-	st = status
+	st = status -s -b
 	cho = checkout
 	cp = cherry-pick
 	br = branch
