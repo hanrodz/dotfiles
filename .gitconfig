@@ -13,6 +13,13 @@
 	rb = rebase
 	rbc = rebase --continue
 	rba = rebase --abort
+	ss = stash
+	ssa = stash apply
+	ssd = stash drop
+	ssp = stash pop
+	ssl = stash list
+	d = diff
+	dn = diff --name-only
 	cm = commit -m
 	amend = commit --amend
 	noe = commit --amend --no-edit
