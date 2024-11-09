@@ -10,6 +10,8 @@
 	cho = checkout
 	cp = cherry-pick
 	br = branch
+	brd = branch -D
+	brm = branch -m
 	rb = rebase
 	rbc = rebase --continue
 	rba = rebase --abort
