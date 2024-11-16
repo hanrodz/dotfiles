@@ -39,4 +39,5 @@
 	st = status -s -b
 [init]
 	defaultBranch = main
+[push]
 	autoSetupRemote = true
