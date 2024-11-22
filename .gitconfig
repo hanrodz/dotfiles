@@ -20,6 +20,8 @@
 	cp = cherry-pick
 	df = diff
 	dfn = diff --name-only
+	dfs = diff --staged
+	dfsn = diff --staged --name-only
 	files = !f() { git diff HEAD HEAD~$1 --name-only; }; f
 	pl = pull
 	pruno = remote prune origin
