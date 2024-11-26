@@ -16,6 +16,7 @@
 	chb = checkout -b
 	cm = commit -m
 	ca = commit --amend
+	cam = commit --amend -m
 	ne = commit --amend --no-edit
 	cp = cherry-pick
 	df = diff
