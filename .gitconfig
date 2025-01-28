@@ -25,6 +25,7 @@
 	dfsn = diff --staged --name-only
 	files = !f() { git diff HEAD HEAD~$1 --name-only; }; f
 	pl = pull
+	pla = pull --all
 	pruno = remote prune origin
 	ps = push
 	psf = push -f
