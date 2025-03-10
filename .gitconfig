@@ -39,6 +39,7 @@
 	ssa = stash apply
 	ssd = stash drop
 	ssl = stash list
+	ssm = stash -m
 	ssp = stash pop
 	st = status -s -b
 [init]
