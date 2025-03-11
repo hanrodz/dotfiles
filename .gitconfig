@@ -26,7 +26,7 @@
 	files = !f() { git diff HEAD HEAD~$1 --name-only; }; f
 	pl = pull
 	pla = pull --all
-	pruno = remote prune origin
+	pro = remote prune origin
 	ps = push
 	psf = push -f
 	rb = rebase
