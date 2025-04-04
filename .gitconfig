@@ -41,6 +41,8 @@
 	ssl = stash list
 	ssm = stash -m
 	ssp = stash pop
+	sss = stash show
+	sssp = stash show -p
 	st = status -s -b
 [init]
 	defaultBranch = main
