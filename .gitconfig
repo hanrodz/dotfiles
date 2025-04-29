@@ -19,6 +19,7 @@
 	cam = commit --amend -m
 	ne = commit --amend --no-edit
 	cp = cherry-pick
+	cpc = cherry-pick --continue
 	df = diff
 	dfn = diff --name-only
 	dfs = diff --staged
