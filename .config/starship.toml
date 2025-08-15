@@ -1,3 +1,6 @@
+[directory]
+truncation_length=0
+repo_root_style='bold blue'
 [status]
 disabled=false
-format="[$symbol $status ]($style)"
+format='[$symbol $status ]($style)'
