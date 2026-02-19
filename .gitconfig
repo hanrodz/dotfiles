@@ -38,6 +38,9 @@
 	rbi = rebase -i
 	rs = reset
 	rsh = reset --hard
+	rv = revert
+	rva = revert --abort
+	rvc = revert --continue
 	ss = stash
 	ssa = stash apply
 	ssd = stash drop
