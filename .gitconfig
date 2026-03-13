@@ -27,8 +27,10 @@
 	dfsn = diff --staged --name-only
 	fe = fetch
 	fea = fetch --all
+	feo = fetch origin
 	pl = pull
 	pla = pull --all
+	plo = pull origin
 	pro = remote prune origin
 	ps = push
 	psf = push -f
