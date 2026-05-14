@@ -1,3 +1,6 @@
+# Starship Shell
+eval "$(starship init zsh)"
+
 # Aliases
 alias la='ls -a'
 alias ll='ls -l'
