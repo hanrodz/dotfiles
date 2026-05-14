@@ -4,7 +4,7 @@ alias ll='ls -l'
 alias matlab='path/to/matlab/binary -nodesktop -nosplash'
 
 # Functions
-function pyenv() {
+function py() {
     # Create environment
     function create_env() {
         python3 -m venv $ENV_DIR
@@ -39,10 +39,13 @@ function pyenv() {
             fi
             if [[ -d $ENV_DIR ]]
             then
-                source $ENV_DIR/bin/activate
+                echo "Activating existing environment $ENV_DIR/"
+                # source $ENV_DIR/bin/activate
             else
+                echo "Creating environment $ENV_DIR/"
                 create_env
             fi
+            source $ENV_DIR/bin/activate
             ;;
     esac
 }
