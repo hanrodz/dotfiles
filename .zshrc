@@ -1,6 +1,10 @@
 # Starship Shell
 eval "$(starship init zsh)"
 
+# Shell
+autoload -Uz compinit && compinit
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+
 # Aliases
 alias la='ls -a'
 alias ll='ls -l'
