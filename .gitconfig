@@ -49,8 +49,10 @@
 	ssl = stash list
 	ssm = stash -m
 	ssp = stash pop
-	sss = stash show
-	sssp = stash show -p
+	ssh = stash show
+	sshp = stash show -p
+	sss = stash --staged
+	sssm = stash --staged -m
 	st = status -s -b
 [init]
 	defaultBranch = main
