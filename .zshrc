@@ -20,7 +20,7 @@ function py() {
         fi
     }
     # Read ENV_DIR
-    local ENV_DIR="pyenv"
+    local ENV_DIR="pyenv.nosync"
     if [[ -n "$2" ]]
     then ENV_DIR="$2"
     fi
